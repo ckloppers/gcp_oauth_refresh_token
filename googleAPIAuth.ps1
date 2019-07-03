@@ -1,15 +1,9 @@
 # A PowerShell script for retrieving a refresh token from Google
-# written by Jeremy Peach (AnalyticJeremy)
-# full documentation:  https://github.com/AnalyticJeremy/ADF_BigQuery
-#
-# Special thanks to Ron Ben Artzi, who wrote the "Show-OAuthWindow" function
-# https://blogs.technet.microsoft.com/ronba/2016/05/09/using-powershell-and-the-office-365-rest-api-with-oauth/
-
 
 # Before running this script, you need to set these three values.  They can be
 # obtained from the GCP console.
-$clientId = "783222166276-gejn0pvtvkll0slh5tqfjblg8heh13pd.apps.googleusercontent.com"
-$clientSecret = "bjbaKLsNxpKsdKIv8r18-0I5"
+$clientId = "YOUR_CLIENT_ID"
+$clientSecret = "YOUR_CLIENT_SECRET"
 $redirectUrl = "http://127.0.0.1/"
 
 # This is the access scope we will be requesting
